@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h2>Liam Luna</h2>
+      <h1>Liam Luna</h1>
       <h2>Software Engineer | Backend | Go & TypeScript</h2>
     </>
   )
