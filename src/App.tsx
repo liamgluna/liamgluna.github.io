@@ -1,13 +1,14 @@
 function App() {
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-800 text-white">
-      <div className='text-center font-mono '>
-        <p className='text-4xl font-bold underline'>Liam Luna</p>
-        <p className='text-xl'>Software Engineer | Backend | Go | TypeScript</p>
+    <div className="flex min-h-screen items-center justify-center bg-zinc-800 text-white">
+      <div className="mx-2 text-center font-mono">
+        <p className="text-2xl font-bold underline sm:text-4xl">Liam Luna</p>
+        <p className="text-xs sm:text-xl">
+          Software Engineer | Backend | Go | TypeScript
+        </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
